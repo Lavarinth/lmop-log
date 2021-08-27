@@ -1,0 +1,569 @@
+hr {
+    border-top-color: #ddd
+}
+
+.textchatcontainer .chatlogmessage {
+    padding-top: 10px
+}
+
+.textchatcontainer a[href^="!"],
+.textchatcontainer a[href^="~"] {
+    background-color: #ce0f69;
+    padding: 5px;
+    color: white;
+    display: inline-block;
+    border: 1px solid white
+}
+
+.no-touch .textchatcontainer a[href^="!"]:hover,
+.textchatcontainer a[href^="~"]:hover {
+    text-decoration: none;
+    cursor: pointer
+}
+
+.textchatcontainer .content {
+    line-height: 1.25em;
+    font-size: 1.05em;
+    word-wrap: break-word
+}
+
+.textchatcontainer .tstamp {
+    font-size: .8em;
+    color: #666;
+    display: block;
+    padding: 0;
+    margin: -4px 0 2px 0;
+    position: relative;
+    left: -5px;
+    line-height: 1.0em
+}
+
+.textchatcontainer .by {
+    font-weight: bold;
+    position: relative;
+    left: -5px
+}
+
+.textchatcontainer .message {
+    padding-left: 45px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    background-color: #F1F1F1;
+    position: relative
+}
+
+.textchatcontainer .message.rollresult.hidden3d {
+    display: none
+}
+
+.textchatcontainer .message.hidden3d .inlinerollresult {
+    color: rgba(255, 255, 255, 0.0);
+    border: none !important
+}
+
+.textchatcontainer .avatar {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    width: 28px
+}
+
+.textchatcontainer .inlinerollresult {
+    background-color: #FEF68E;
+    border: 2px solid #FEF68E;
+    padding: 0 3px 0 3px;
+    font-weight: bold;
+    cursor: help;
+    font-size: 1.1em
+}
+
+.textchatcontainer .inlinerollresult.fullcrit {
+    border: 2px solid #3FB315
+}
+
+.textchatcontainer .inlinerollresult.fullfail {
+    border: 2px solid #B31515
+}
+
+.textchatcontainer .inlinerollresult.importantroll {
+    border: 2px solid #4A57ED
+}
+
+.textchatcontainer .formula .inlinerollresult {
+    font-size: inherit
+}
+
+.textchatcontainer .rollresult .avatar {
+    top: 10px
+}
+
+.textchatcontainer .rollresult.quantumRoll {
+    background: url(https://app.roll20.net/images/quantumrollsm.png) no-repeat bottom left
+}
+
+.inlineqroll {
+    width: 18px;
+    height: 18px;
+    vertical-align: bottom
+}
+
+.textchatcontainer .avatar img {
+    max-width: 28px;
+    max-height: 28px
+}
+
+.textchatcontainer .message .spacer {
+    background-color: #E1E1E1;
+    height: 2px;
+    margin-bottom: 7px;
+    margin-left: -45px
+}
+
+.textchatcontainer .message .tstamp {
+    display: none
+}
+
+.textchatcontainer.withtimestamps .message .tstamp {
+    display: block
+}
+
+.textchatcontainer.withoutavatars .avatar {
+    display: none
+}
+
+.textchatcontainer.withoutavatars .message {
+    padding-left: 15px
+}
+
+.textchatcontainer.withoutavatars .message .spacer {
+    margin-left: -15px
+}
+
+.textchatcontainer .message.desc {
+    padding-left: 15px
+}
+
+.textchatcontainer .message.desc .spacer {
+    margin-left: -15px
+}
+
+.textchatcontainer .message.you {
+    background-color: #D3E5F5
+}
+
+.textchatcontainer .message.you .spacer {
+    background-color: #B1D9FA
+}
+
+.textchatcontainer .formula,
+.textchatcontainer .rolled {
+    display: inline;
+    padding: 4px;
+    background: white;
+    border-radius: 3px;
+    border: 1px solid #D1D1D1;
+    font-size: 1.1em;
+    line-height: 2.0em;
+    word-wrap: break-word
+}
+
+.textchatcontainer .formula .parsegroup {
+    display: inline
+}
+
+.textchatcontainer .formula .parsegroup .parsegroupitem {
+    display: inline
+}
+
+.textchatcontainer.withouticons .dicegrouping .diceroll .backing {
+    display: none !important
+}
+
+.diceroll.withouticons .backing {
+    display: none !important
+}
+
+.textchatcontainer .dicegrouping {
+    display: inline
+}
+
+.diceroll {
+    display: inline-block;
+    font-size: 1.2em
+}
+
+.diceroll.ui-sortable-helper {
+    font-size: 1.4em
+}
+
+.diceroll.ui-sortable-helper .backing {
+    opacity: 1.0
+}
+
+.textchatcontainer .formattedformula {
+    display: block;
+    float: left;
+    padding: 0 4px 0 4px;
+    margin: 5px 0 5px 0
+}
+
+.textchatcontainer .formattedformula>.dicegrouping.ui-sortable {
+    cursor: move
+}
+
+.diceroll .dicon {
+    display: inline-block;
+    min-width: 30px;
+    text-align: center;
+    position: relative
+}
+
+.diceroll .dicon .didroll img,
+.diceroll .dicon .didroll video {
+    width: 30px;
+    height: 30px
+}
+
+.diceroll .didroll {
+    text-shadow: -1px -1px 1px #FFF, 1px -1px 1px #FFF, -1px 1px 1px #FFF, 1px 1px 1px #FFF;
+    z-index: 2;
+    position: relative;
+    color: black;
+    height: auto;
+    min-height: 29px;
+    margin-top: -3px;
+    top: 0;
+    text-align: center
+}
+
+.diceroll .didroll img,
+.diceroll .didroll video {
+    max-width: 30px;
+    max-height: 30px;
+    vertical-align: middle
+}
+
+.diceroll .backing {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #8FB1D9;
+    text-shadow: 0 0 3px #8FB1D9;
+    opacity: .75;
+    pointer-events: none;
+    z-index: 1
+}
+
+.diceroll.d20 .backing {
+    font-family: "dicefontd20"
+}
+
+.diceroll.d4 .backing {
+    font-family: "dicefontd4"
+}
+
+.diceroll.d6 .backing {
+    font-family: "dicefontd6"
+}
+
+.diceroll.d8 .backing {
+    font-family: "dicefontd8"
+}
+
+.diceroll.d10 .backing {
+    font-family: "dicefontd10"
+}
+
+.diceroll.d12 .backing {
+    font-family: "dicefontd12"
+}
+
+.diceroll.d20 .backing:after,
+.diceroll.d12 .backing:after,
+.diceroll.d10 .backing:after,
+.diceroll.d8 .backing:after,
+.diceroll.d6 .backing:after,
+.diceroll.d4 .backing:after {
+    content: "0"
+}
+
+.textchatcontainer .rolled {
+    cursor: move;
+    font-weight: bold;
+    color: black;
+    font-size: 1.4em
+}
+
+.textchatcontainer .parsegroup .parsegroupitem.dropped .diceroll {
+    opacity: .40
+}
+
+.diceroll.dropped {
+    opacity: .40
+}
+
+.diceroll.critsuccess .didroll {
+    color: #247305;
+    font-weight: bold
+}
+
+.diceroll.critfail .didroll {
+    color: #730505;
+    font-weight: bold
+}
+
+.diceroll .matchbar {
+    border-top: 3px solid;
+    max-width: 30px
+}
+
+.textchatcontainer .formula .userscript-parsegroup {
+    display: inline
+}
+
+.textchatcontainer .formula .userscript-parsegroup .userscript-parsegroupitem {
+    display: inline
+}
+
+.textchatcontainer.withouticons .userscript-dicegrouping .userscript-diceroll .userscript-backing {
+    display: none !important
+}
+
+.userscript-diceroll.withouticons .userscript-backing {
+    display: none !important
+}
+
+.textchatcontainer .userscript-dicegrouping {
+    display: inline
+}
+
+.userscript-diceroll {
+    display: inline-block;
+    font-size: 1.2em
+}
+
+.userscript-diceroll .userscript-dicon {
+    display: inline-block;
+    min-width: 30px;
+    text-align: center;
+    position: relative
+}
+
+.userscript-diceroll .userscript-didroll {
+    text-shadow: -1px -1px 1px #FFF, 1px -1px 1px #FFF, -1px 1px 1px #FFF, 1px 1px 1px #FFF;
+    z-index: 2;
+    position: relative;
+    color: black;
+    height: auto;
+    min-height: 29px;
+    margin-top: -3px;
+    top: 0;
+    text-align: center
+}
+
+.userscript-diceroll .userscript-didroll img {
+    max-width: 30px;
+    max-height: 30px;
+    vertical-align: middle
+}
+
+.userscript-diceroll .userscript-backing {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #8FB1D9;
+    text-shadow: 0 0 3px #8FB1D9;
+    opacity: .75;
+    pointer-events: none;
+    z-index: 1
+}
+
+.userscript-diceroll.d20 .userscript-backing {
+    font-family: "dicefontd20"
+}
+
+.userscript-diceroll.d4 .userscript-backing {
+    font-family: "dicefontd4"
+}
+
+.userscript-diceroll.d6 .userscript-backing {
+    font-family: "dicefontd6"
+}
+
+.userscript-diceroll.d8 .userscript-backing {
+    font-family: "dicefontd8"
+}
+
+.userscript-diceroll.d10 .userscript-backing {
+    font-family: "dicefontd10"
+}
+
+.userscript-diceroll.d12 .userscript-backing {
+    font-family: "dicefontd12"
+}
+
+.userscript-diceroll.d20 .userscript-backing:after,
+.userscript-diceroll.d12 .userscript-backing:after,
+.userscript-diceroll.d10 .userscript-backing:after,
+.userscript-diceroll.d8 .userscript-backing:after,
+.userscript-diceroll.d6 .userscript-backing:after,
+.userscript-diceroll.d4 .userscript-backing:after {
+    content: "0"
+}
+
+.textchatcontainer .rolled {
+    cursor: move;
+    font-weight: bold;
+    color: black;
+    font-size: 1.4em
+}
+
+.textchatcontainer .userscript-parsegroup .userscript-parsegroupitem.userscript-dropped .userscript-diceroll {
+    opacity: .40
+}
+
+.userscript-diceroll.userscript-dropped {
+    opacity: .40
+}
+
+.userscript-diceroll.userscript-critsuccess .userscript-didroll {
+    color: #247305;
+    font-weight: bold
+}
+
+.userscript-diceroll.userscript-critfail .userscript-didroll {
+    color: #730505;
+    font-weight: bold
+}
+
+.userscript-basicdiceroll {
+    font-size: 1.15em
+}
+
+.userscript-basicdiceroll.userscript-critsuccess {
+    color: #0F0
+}
+
+.userscript-basicdiceroll.userscript-critfail {
+    color: #FF4D4D;
+    font-weight: bold
+}
+
+
+.basicdiceroll {
+    font-size: 1.15em
+}
+
+.basicdiceroll.critsuccess {
+    color: #0F0
+}
+
+.basicdiceroll.critfail {
+    color: #FF4D4D;
+    font-weight: bold
+}
+
+.basicdiceroll.dropped {
+    color: #888
+}
+
+.textchatcontainer .error {
+    background: #FFD2AD;
+    border-radius: 3px;
+    border: 1px solid #D1D1D1
+}
+
+.textchatcontainer .emote {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: #653E10;
+    background-color: #F5E4D3
+}
+
+.textchatcontainer .emote .spacer {
+    background-color: #F0C392
+}
+
+.textchatcontainer .desc {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center
+}
+
+.textchatcontainer .message.private {
+    background-color: #F2F5D3
+}
+
+.textchatcontainer .message.private .spacer {
+    background-color: #F0F092
+}
+
+#textchat-input {
+    position: absolute;
+    width: 290px;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-top: 5px solid #F1F1F1;
+    text-align: left;
+    z-index: 101
+}
+
+body.sidebarhidden #textchat-input {
+    display: none
+}
+
+#textchat-input textarea {
+    height: 50px;
+    width: 190px
+}
+
+#textchat-input button {
+    width: auto
+}
+
+#textchat-input label {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+    padding-left: 5px;
+    position: relative;
+    top: -2px
+}
+
+#textchat-notifier {
+    position: absolute;
+    top: -35px;
+    right: 0;
+    background-color: white;
+    padding: 5px;
+    font-size: .9em;
+    font-weight: bold
+}
+
+#textchat .userscript-sharelink {
+    background-color: black;
+    cursor: pointer;
+    display: block;
+    margin: 5px 0 5px 0;
+    opacity: .50
+}
+
+#textchat .userscript-sharelink a {
+    color: black !important
+}
+
+.no-touch #textchat div.userscript-sharelink:hover {
+    background-color: transparent;
+    opacity: 1.0
+}
